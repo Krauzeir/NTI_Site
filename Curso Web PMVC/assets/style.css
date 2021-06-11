@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: #c2c2c2;
+}
+
+h2 {
+    color: blue;
+}
+
+.vermelho {
+    color: red;
+}
+
+#verde {
+    color: green;
+}
+
+div>h2 {
+    color: black;
+}
+
+/*comentario em css 
+.seletores {
+    padding: 1º topo(top) 2º lado direito(right) 3º parte inferior (bottom) 4º lado esquerdo(left)
+}*/
+
+.div-vermelha {
+    height: 100px;
+    padding: 25px;
+    background: red;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.div-branca {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
